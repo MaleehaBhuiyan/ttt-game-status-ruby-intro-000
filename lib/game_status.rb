@@ -30,16 +30,9 @@ def won?(board)
       return combination
     end
   }
-  return false    
+  return false
 end
 
 def full?
   
 end
-
-
-
-
-
-
-  
