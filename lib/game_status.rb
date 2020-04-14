@@ -31,3 +31,4 @@ WIN_COMBINATIONS.each do {|combinations
       false
     end
   end
+end
