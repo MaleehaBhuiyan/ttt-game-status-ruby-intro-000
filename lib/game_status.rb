@@ -61,4 +61,5 @@ end
 def winner
   if won?(board) == "X"
     return "X"
+  end
 end
