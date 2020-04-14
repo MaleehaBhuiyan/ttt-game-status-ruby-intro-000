@@ -38,6 +38,6 @@ def full?(full_board)
   if full_board
     return true
   else
-    return false 
+    return false
   end
 end
