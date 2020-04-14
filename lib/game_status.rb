@@ -62,4 +62,5 @@ def winner
   index = []
   if board[index[0]] == "X"
     return "X"
+  end
 end
