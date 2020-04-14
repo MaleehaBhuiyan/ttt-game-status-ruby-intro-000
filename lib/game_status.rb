@@ -16,17 +16,4 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-WIN_COMBINATIONS.each do {|combinations|
-  win_index_0 = combinations[0]
-  win_index_1 = combinations[1]
-  win_index_2 = combinations[2]
-  position_1 = board[win_index_0]
-  position_2 = board[win_index_1]
-  position_3 = board[win_index_2]
-  if position_1 == "X" && position_2 == "X" && position_3 == "X"
-      return combinations
-  elsif position_1 == "O" && position_2 == "O" && position_3 == "O"
-      return combinations
-  end}
-  return false
 end
