@@ -59,13 +59,13 @@ def over?(board)
 end
 
 def winner(board)
-  index = []
-  index = won?(board)
-  if index == false 
+  position = []
+  position = won?(board)
+  if position == false
     return nil
-  elsif board[index[0]] == "X"
+  elsif board[position[0]] == "X"
     return "X"
-  elsif board[index[0]] == "O"
+  elsif board[position[0]] == "O"
     return "O"
   end
 end
