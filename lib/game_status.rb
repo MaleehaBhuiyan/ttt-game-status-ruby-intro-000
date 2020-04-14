@@ -33,6 +33,10 @@ def won?(board)
   return false
 end
 
-def full?(board)
-
+full_board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
+def full?(full_board)
+  if full_board
+    return true
+  else
+    return false 
 end
