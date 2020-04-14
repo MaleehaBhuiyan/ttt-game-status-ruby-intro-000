@@ -61,11 +61,11 @@ end
 def winner(board)
   index = []
   index = won?(board)
-  if board[index[0]] == "X"
+  if !(board[index[0]] == "X") && !(board[index[0]] == "O")
+    return nil
+  elsif board[index[0]] == "X"
     return "X"
   elsif board[index[0]] == "O"
     return "O"
-  elsif !(board[index[0]] == "X") && !(board[index[0]] == "O")
-    return nil
   end
 end
