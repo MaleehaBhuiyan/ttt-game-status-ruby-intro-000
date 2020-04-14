@@ -33,11 +33,11 @@ def won?(board)
   return false
 end
 
-full_board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
-def full?(full_board)
-  if full_board
-    return true
+
+def full?(board)
+  if board.all? {|index| index == "X" || index == "O"}
+    true
   else
-    return false
+    false
   end
 end
